@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: white;
+  /* height: 700px; */
+  font-family: sans-serif;
+}
+
+a:link,
+a:visited{
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: overline;
+}
+.menu-container {
+  color: white;
+  background-color: #5B2C6F;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  top: 0;
+  position: fixed;
+  width: 100%;
+}
+.menu{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.botton{
+  border-radius: 4px;
+  color: white;
+  background-color: #A61538;
+  margin-right: inherit;
+}
+.dad_formu{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  width: 900px;
+  margin: auto;
+  margin-top: 100px;
+}
+.formu{
+  padding: 15px 0;
+  width: 50%;
+  color: #A61538;
+  font-style: oblique;
+}
+.formu > input{
+  display: block;
+  margin:  15px 0;
+  width: 100%;
+  border-radius: 4px;
+
+}
+.formu .btn {
+  color: white;
+  background-color: #A61538;
+  width: 100px;
+  margin-left: auto;
+}
+
+.publicacion{
+  display: block;
+  justify-content: center;
+  width: 900px;
+  margin: auto;
+  margin-top: 100px;
+}
+.Titulo{
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  background-color: #552430;
+  color: white;
+  padding: 15px;
+}
+.Contenido{
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  margin-bottom: 50px;
+  padding: 15px;
+}
+.h1{
+  margin-top: 100;
+}
